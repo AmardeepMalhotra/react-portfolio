@@ -34,9 +34,9 @@ export default function Contact() {
         >
           {CONTACT.phoneNo}
         </motion.p>{" "}
-        <a className="border-b">
+        <p className="border-b">
           {CONTACT.email}
-        </a>
+        </p>
       </div>
     </div>
   );
