@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  font-family: "Inter",sans-serif;
+}
+.logo{
+  background-color: #1f2937;
+  border-radius: 40px;
+  height: 50px;
+}
+.meadia-icon{
+  color: white;
+  cursor: pointer;
+}
+.background{
+ background-color:  #262636;
+}
+.heading h1{
+  margin-left: 40px;
+  font-weight: 400;
+}
+.para{
+  margin-left: 40px;
+}
+.span-item{
+  margin-left: 90px;
+}
+img{
+  border-radius: 20px;
+}
+.linked:hover{
+  color:rgb(58, 186, 236);
+}
+.github:hover{
+  color: black;
+}
+.twitter:hover{
+  color: black;
+}
+.instagram:hover{
+  color:rgb(209, 31, 60);
+}
+.facebook:hover{
+  color: #2121c2;
+}
+.techno{
+font-weight:600 ;
+font-size: 15px;
 }
